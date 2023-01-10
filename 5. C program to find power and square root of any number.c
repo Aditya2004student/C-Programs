@@ -1,0 +1,25 @@
+
+
+#include<stdio.h>
+
+Int main ()
+
+{
+
+double num,power,sqrt
+
+printf("Enter a number: ");
+
+scanf("%lf", &num);
+
+power = pow(num, 2);
+
+sqrt = sqrt(num)
+
+printf("Power of %lf is %lf\n", num, power);
+
+printf("Square root of %lf is %lf\n", num, sqrt);
+
+return 0;
+
+}
